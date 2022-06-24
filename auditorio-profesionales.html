@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congreso Proinoas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+    <section id="cont-auditorio">
+        <div class="cont-poster-lefta">
+            <img class="w-100" src="media/poster-left-audit.png" alt="">
+        </div>
+        <div class="cont-poster-righta">
+            <h4>Recursos Educativos</h4>
+            <ul>
+                <li>
+                    <!-- Pendiente de poner el enlace externo -->
+                    <a  href="#" target="_blank">
+                        <img src="media/evaluaciones.png" alt="">
+                        <span>Evaluaciones</span>
+                    </a>
+                </li>
+                <li>
+                    <!-- Pendiente de poner el enlace externo -->
+                    <a  href="#" target="_blank">
+                        <img src="media/foros.png" alt="">
+                        <span>Foros</span>
+                    </a>
+                </li>
+                <li>
+                    <!-- Pendiente de poner el enlace externo -->
+                    <a  href="#" target="_blank">
+                        <img src="media/bibliografias.png" alt="">
+                        <span>Bibliografía</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="cont-events-items" id="cont-events-items">
+            <div class="header-events">
+                <h2>PROGRAMA PROFESIONALES</h2>
+                <img id="logo-programa-bloque" src="media/proinoas.png" alt="">
+            </div>
+            <div class="item-events active" id="item-event">
+                <div class="cont-btns">
+                    <button  onclick="bloque1()" class="btn-bloque profesionales">
+                        BLOQUE 1
+                    </button>
+                    <button  onclick="bloque2()" class="btn-bloque profesionales">
+                        BLOQUE 2
+                    </button>
+                </div>
+                <div class="cont-btns">
+                    <button  onclick="bloque3()" class="btn-bloque profesionales">
+                        BLOQUE 3
+                    </button>
+                    <button  onclick="bloque4()" class="btn-bloque profesionales">
+                        BLOQUE 4
+                    </button>
+                </div>
+                <div class="cont-btns">
+                    <button  onclick="bloque5()" class="btn-bloque profesionales">
+                        BLOQUE 5
+                    </button>
+                    <button  onclick="bloque6()"  class="btn-bloque profesionales">
+                        BLOQUE 6
+                    </button>
+                </div>
+                <p class="aviso">Todas las actividades educativas del programa  PROINOAS<br>estarán disponibles hasta junio de 2023
+                </p>
+
+            </div>
+            <div class="item-events" id="item-eventa">
+                <table class="table ">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>USO DE TELEMEDICINA PARA LA IMPLEMENTACIÓN DE ESTRATEGIAS DE NEURO-PROTECCIÓN NEONATAL
+                                    </h4>
+                                    <p>Dr. Gabriel Variane - Pediatra Neonatólogo - Brasil</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO
+                                    </h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>UCI NEUROLÓGICA NEONATAL: UN NUEVO MODELO DE ATENCIÓN AL RECIÉN NACIDO DE ALTO RIESGO
+                                    </h4>
+                                    <p>Dr. Gabriel Variane - Pediatra Neonatólogo - Brasil</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO
+                                    </h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a href="#">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO</h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia</p>
+                                </a>
+                                <!-- <div class="live">
+                                    <a href="#">
+                                        <h4>SÁBADO 16 DE OCTUBRE 9:00 A.M.</h4>
+                                        <img src="media/iconlive.png" alt="">
+                                    </a>
+
+                                </div> -->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="item-events" id="item-eventb">
+                <table class="table ">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>USO DE TELEMEDICINA PARA LA IMPLEMENTACIÓN DE ESTRATEGIAS DE NEURO-PROTECCIÓN NEONATAL
+                                    </h4>
+                                    <p>Dr. Gabriel Variane - Pediatra Neonatólogo - Brasil</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO
+                                    </h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>UCI NEUROLÓGICA NEONATAL: UN NUEVO MODELO DE ATENCIÓN AL RECIÉN NACIDO DE ALTO RIESGO
+                                    </h4>
+                                    <p>Dr. Gabriel Variane - Pediatra Neonatólogo - Brasil</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO
+                                    </h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a href="#">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO</h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia</p>
+                                </a>
+                                <!-- <div class="live">
+                                    <a href="#">
+                                        <h4>SÁBADO 16 DE OCTUBRE 9:00 A.M.</h4>
+                                        <img src="media/iconlive.png" alt="">
+                                    </a>
+
+                                </div> -->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="item-events" id="item-eventc">
+                <table class="table ">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>USO DE TELEMEDICINA PARA LA IMPLEMENTACIÓN DE ESTRATEGIAS DE NEURO-PROTECCIÓN NEONATAL
+                                    </h4>
+                                    <p>Dr. Gabriel Variane - Pediatra Neonatólogo - Brasil</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO
+                                    </h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>UCI NEUROLÓGICA NEONATAL: UN NUEVO MODELO DE ATENCIÓN AL RECIÉN NACIDO DE ALTO RIESGO
+                                    </h4>
+                                    <p>Dr. Gabriel Variane - Pediatra Neonatólogo - Brasil</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO
+                                    </h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a href="#">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO</h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia</p>
+                                </a>
+                                <!-- <div class="live">
+                                    <a href="#">
+                                        <h4>SÁBADO 16 DE OCTUBRE 9:00 A.M.</h4>
+                                        <img src="media/iconlive.png" alt="">
+                                    </a>
+
+                                </div> -->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="item-events" id="item-eventd">
+                <table class="table ">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>USO DE TELEMEDICINA PARA LA IMPLEMENTACIÓN DE ESTRATEGIAS DE NEURO-PROTECCIÓN NEONATAL
+                                    </h4>
+                                    <p>Dr. Gabriel Variane - Pediatra Neonatólogo - Brasil</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO
+                                    </h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>UCI NEUROLÓGICA NEONATAL: UN NUEVO MODELO DE ATENCIÓN AL RECIÉN NACIDO DE ALTO RIESGO
+                                    </h4>
+                                    <p>Dr. Gabriel Variane - Pediatra Neonatólogo - Brasil</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO
+                                    </h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a href="#">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO</h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia</p>
+                                </a>
+                                <!-- <div class="live">
+                                    <a href="#">
+                                        <h4>SÁBADO 16 DE OCTUBRE 9:00 A.M.</h4>
+                                        <img src="media/iconlive.png" alt="">
+                                    </a>
+
+                                </div> -->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="item-events" id="item-evente">
+                <table class="table ">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>USO DE TELEMEDICINA PARA LA IMPLEMENTACIÓN DE ESTRATEGIAS DE NEURO-PROTECCIÓN NEONATAL
+                                    </h4>
+                                    <p>Dr. Gabriel Variane - Pediatra Neonatólogo - Brasil</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO
+                                    </h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>UCI NEUROLÓGICA NEONATAL: UN NUEVO MODELO DE ATENCIÓN AL RECIÉN NACIDO DE ALTO RIESGO
+                                    </h4>
+                                    <p>Dr. Gabriel Variane - Pediatra Neonatólogo - Brasil</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO
+                                    </h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a href="#">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO</h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia</p>
+                                </a>
+                                <!-- <div class="live">
+                                    <a href="#">
+                                        <h4>SÁBADO 16 DE OCTUBRE 9:00 A.M.</h4>
+                                        <img src="media/iconlive.png" alt="">
+                                    </a>
+
+                                </div> -->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="item-events" id="item-eventf">
+                <table class="table ">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>USO DE TELEMEDICINA PARA LA IMPLEMENTACIÓN DE ESTRATEGIAS DE NEURO-PROTECCIÓN NEONATAL
+                                    </h4>
+                                    <p>Dr. Gabriel Variane - Pediatra Neonatólogo - Brasil</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO
+                                    </h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>UCI NEUROLÓGICA NEONATAL: UN NUEVO MODELO DE ATENCIÓN AL RECIÉN NACIDO DE ALTO RIESGO
+                                    </h4>
+                                    <p>Dr. Gabriel Variane - Pediatra Neonatólogo - Brasil</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a onclick="window.open('')">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO
+                                    </h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/icon-video.png" alt="">
+                            </td>
+                            <td class="text">
+                                <a href="#">
+                                    <h4>NEURO-PROTECCIÓN ANTENATAL: CONDICIONES PRENATALES QUE INTERFIEREN EN EL NEURO-DESARROLLO</h4>
+                                    <p>Dr. Adolfo Álvarez - Neurólogo Pediatra - Colombia</p>
+                                </a>
+                                <!-- <div class="live">
+                                    <a href="#">
+                                        <h4>SÁBADO 16 DE OCTUBRE 9:00 A.M.</h4>
+                                        <img src="media/iconlive.png" alt="">
+                                    </a>
+
+                                </div> -->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="cont-botones-inf">
+                <button id="bloque1" onclick="bloque1()" class="btn-bloque prof hide">
+                    BLOQUE 1
+                </button>
+                <button id="bloque2" onclick="bloque2()" class="btn-bloque prof">
+                    BLOQUE 2
+                </button>
+                <button id="bloque3" onclick="bloque3()" class="btn-bloque prof">
+                    BLOQUE 3
+                </button>
+                <button id="bloque4" onclick="bloque4()" class="btn-bloque prof">
+                    BLOQUE 4
+                </button>
+                <button id="bloque5" onclick="bloque5()" class="btn-bloque prof">
+                    BLOQUE 5
+                </button>
+                <button id="bloque6" onclick="bloque6()"  class="btn-bloque prof">
+                    BLOQUE 6
+                </button>
+            </div>
+        </div>
+
+        <div class="cont-menu-bottom">
+
+            <a class="menu-item" href="comercial.html"><img src="media/icon-comercial.png"
+                    alt=""><span>Comercial</span></a>
+            <a class="menu-item" href="lobby.html"><img src="media/icon-salir.png" alt=""><span>Salir</span></a>
+        </div>
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <!-- <script>
+        var v = document.getElementById('sample-video');
+        v.play();
+        v.addEventListener('ended', function () {
+            console.log('ended');
+            location.href = "lobby.html";
+        }, false);
+    </script> -->
+
+
+    <script>
+        $(document).ready(function () {
+
+            setTimeout(function () {
+                $('body').addClass('loaded');
+                $('h1').css('color', '#222222');
+            }, 250);
+
+        });
+    </script>
+    <script>
+        function bloque1()
+        {
+            var element = document.getElementById("item-event");
+            var elementa = document.getElementById("item-eventa");
+            var elementb = document.getElementById("item-eventb");
+            var elementc = document.getElementById("item-eventc");
+            var elementd = document.getElementById("item-eventd");
+            var elemente = document.getElementById("item-evente");
+            var elementf = document.getElementById("item-eventf");
+            var contBtns= document.getElementById("cont-botones-inf");
+            var contGlobal = document.getElementById("cont-events-items");
+            var imgBloque = document.getElementById("logo-programa-bloque");
+            var paginador1 = document.getElementById("bloque1");
+            var paginador2 = document.getElementById("bloque2");
+            var paginador3 = document.getElementById("bloque3");
+            var paginador4 = document.getElementById("bloque4");
+            var paginador5 = document.getElementById("bloque5");
+            var paginador6 = document.getElementById("bloque6");
+            imgBloque.src="media/bloque1p.png";
+            imgBloque.classList.add("bloque");
+            element.classList.remove("active");            
+            elementb.classList.remove("active");
+            elementc.classList.remove("active");
+            elementd.classList.remove("active");
+            elemente.classList.remove("active");
+            elementf.classList.remove("active");
+            contBtns.classList.add("active");
+            contGlobal.classList.add("active")
+            elementa.classList.add("active");
+            paginador1.classList.add("hide");
+            paginador2.classList.remove("hide");
+            paginador3.classList.remove("hide");
+            paginador4.classList.remove("hide");
+            paginador5.classList.remove("hide");
+            paginador6.classList.remove("hide");
+        };
+
+
+        function bloque2()
+        {
+            var element = document.getElementById("item-event");
+            var elementa = document.getElementById("item-eventa");
+            var elementb = document.getElementById("item-eventb");
+            var elementc = document.getElementById("item-eventc");
+            var elementd = document.getElementById("item-eventd");
+            var elemente = document.getElementById("item-evente");
+            var elementf = document.getElementById("item-eventf");
+            var contBtns= document.getElementById("cont-botones-inf");
+            var contGlobal = document.getElementById("cont-events-items");
+            var imgBloque = document.getElementById("logo-programa-bloque");
+            var paginador1 = document.getElementById("bloque1");
+            var paginador2 = document.getElementById("bloque2");
+            var paginador3 = document.getElementById("bloque3");
+            var paginador4 = document.getElementById("bloque4");
+            var paginador5 = document.getElementById("bloque5");
+            var paginador6 = document.getElementById("bloque6");
+            imgBloque.src="media/bloque2p.png";
+            imgBloque.classList.add("bloque");
+            element.classList.remove("active");            
+            elementa.classList.remove("active");
+            elementc.classList.remove("active");
+            elementd.classList.remove("active");
+            elemente.classList.remove("active");
+            elementf.classList.remove("active");
+            contBtns.classList.add("active");
+            contGlobal.classList.add("active")
+            elementb.classList.add("active");
+            paginador1.classList.remove("hide");
+            paginador2.classList.add("hide");
+            paginador3.classList.remove("hide");
+            paginador4.classList.remove("hide");
+            paginador5.classList.remove("hide");
+            paginador6.classList.remove("hide");
+        };
+        
+        function bloque3()
+        {
+            var element = document.getElementById("item-event");
+            var elementa = document.getElementById("item-eventa");
+            var elementb = document.getElementById("item-eventb");
+            var elementc = document.getElementById("item-eventc");
+            var elementd = document.getElementById("item-eventd");
+            var elemente = document.getElementById("item-evente");
+            var elementf = document.getElementById("item-eventf");
+            var contBtns= document.getElementById("cont-botones-inf");
+            var contGlobal = document.getElementById("cont-events-items");
+            var imgBloque = document.getElementById("logo-programa-bloque");
+            var paginador1 = document.getElementById("bloque1");
+            var paginador2 = document.getElementById("bloque2");
+            var paginador3 = document.getElementById("bloque3");
+            var paginador4 = document.getElementById("bloque4");
+            var paginador5 = document.getElementById("bloque5");
+            var paginador6 = document.getElementById("bloque6");
+            imgBloque.src="media/bloque3p.png";
+            imgBloque.classList.add("bloque");
+            element.classList.remove("active");            
+            elementa.classList.remove("active");
+            elementb.classList.remove("active");
+            elementd.classList.remove("active");
+            elemente.classList.remove("active");
+            elementf.classList.remove("active");
+            contBtns.classList.add("active");
+            contGlobal.classList.add("active")
+            elementc.classList.add("active");
+            paginador1.classList.remove("hide");
+            paginador2.classList.remove("hide");
+            paginador3.classList.add("hide");
+            paginador4.classList.remove("hide");
+            paginador5.classList.remove("hide");
+            paginador6.classList.remove("hide");
+        };
+
+
+        function bloque4()
+        {
+            var element = document.getElementById("item-event");
+            var elementa = document.getElementById("item-eventa");
+            var elementb = document.getElementById("item-eventb");
+            var elementc = document.getElementById("item-eventc");
+            var elementd = document.getElementById("item-eventd");
+            var elemente = document.getElementById("item-evente");
+            var elementf = document.getElementById("item-eventf");
+            var contBtns= document.getElementById("cont-botones-inf");
+            var contGlobal = document.getElementById("cont-events-items");
+            var imgBloque = document.getElementById("logo-programa-bloque");
+            var paginador1 = document.getElementById("bloque1");
+            var paginador2 = document.getElementById("bloque2");
+            var paginador3 = document.getElementById("bloque3");
+            var paginador4 = document.getElementById("bloque4");
+            var paginador5 = document.getElementById("bloque5");
+            var paginador6 = document.getElementById("bloque6");
+            imgBloque.src="media/bloque4p.png";
+            imgBloque.classList.add("bloque");
+            element.classList.remove("active");            
+            elementa.classList.remove("active");
+            elementb.classList.remove("active");
+            elementc.classList.remove("active");
+            elemente.classList.remove("active");
+            elementf.classList.remove("active");
+            contBtns.classList.add("active");
+            contGlobal.classList.add("active")
+            elementd.classList.add("active");
+            paginador1.classList.remove("hide");
+            paginador2.classList.remove("hide");
+            paginador3.classList.remove("hide");
+            paginador4.classList.add("hide");
+            paginador5.classList.remove("hide");
+            paginador6.classList.remove("hide");
+        };
+
+
+        
+        function bloque5()
+        {
+            var element = document.getElementById("item-event");
+            var elementa = document.getElementById("item-eventa");
+            var elementb = document.getElementById("item-eventb");
+            var elementc = document.getElementById("item-eventc");
+            var elementd = document.getElementById("item-eventd");
+            var elemente = document.getElementById("item-evente");
+            var elementf = document.getElementById("item-eventf");
+            var contBtns= document.getElementById("cont-botones-inf");
+            var contGlobal = document.getElementById("cont-events-items");
+            var imgBloque = document.getElementById("logo-programa-bloque");
+            var paginador1 = document.getElementById("bloque1");
+            var paginador2 = document.getElementById("bloque2");
+            var paginador3 = document.getElementById("bloque3");
+            var paginador4 = document.getElementById("bloque4");
+            var paginador5 = document.getElementById("bloque5");
+            var paginador6 = document.getElementById("bloque6");
+            imgBloque.src="media/bloque5p.png";
+            imgBloque.classList.add("bloque");
+            element.classList.remove("active");            
+            elementa.classList.remove("active");
+            elementb.classList.remove("active");
+            elementc.classList.remove("active");
+            elementd.classList.remove("active");
+            elementf.classList.remove("active");
+            contBtns.classList.add("active");
+            contGlobal.classList.add("active")
+            elemente.classList.add("active");
+            paginador1.classList.remove("hide");
+            paginador2.classList.remove("hide");
+            paginador3.classList.remove("hide");
+            paginador4.classList.remove("hide");
+            paginador5.classList.add("hide");
+            paginador6.classList.remove("hide");
+        };
+
+
+        
+        function bloque6()
+        {
+            var element = document.getElementById("item-event");
+            var elementa = document.getElementById("item-eventa");
+            var elementb = document.getElementById("item-eventb");
+            var elementc = document.getElementById("item-eventc");
+            var elementd = document.getElementById("item-eventd");
+            var elemente = document.getElementById("item-evente");
+            var elementf = document.getElementById("item-eventf");
+            var contBtns= document.getElementById("cont-botones-inf");
+            var contGlobal = document.getElementById("cont-events-items");
+            var imgBloque = document.getElementById("logo-programa-bloque");
+            var paginador1 = document.getElementById("bloque1");
+            var paginador2 = document.getElementById("bloque2");
+            var paginador3 = document.getElementById("bloque3");
+            var paginador4 = document.getElementById("bloque4");
+            var paginador5 = document.getElementById("bloque5");
+            var paginador6 = document.getElementById("bloque6");
+            imgBloque.src="media/bloque6p.png";
+            imgBloque.classList.add("bloque");
+            element.classList.remove("active");            
+            elementa.classList.remove("active");
+            elementb.classList.remove("active");
+            elementc.classList.remove("active");
+            elementd.classList.remove("active");
+            elemente.classList.remove("active");
+            contBtns.classList.add("active");
+            contGlobal.classList.add("active")
+            elementf.classList.add("active");
+            paginador1.classList.remove("hide");
+            paginador2.classList.remove("hide");
+            paginador3.classList.remove("hide");
+            paginador4.classList.remove("hide");
+            paginador5.classList.remove("hide");
+            paginador6.classList.add("hide");
+        };
+
+
+        
+    </script>
+
+
+</body>
+
+</html>
