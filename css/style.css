@@ -137,41 +137,6 @@ body {
     background: linear-gradient(#b590ff, #691cff);
 }
 
-/* 
-57167d
-#cont-auditorio .cont-poster-righta ul li a:hover {
-    text-decoration: none;
-}
-
-#cont-auditorio .cont-poster-righta ul li a:hover span {
-    background: #127070;
-}
-
-#cont-auditorio .cont-poster-righta ul li a:hover i {
-    border-bottom: 3px solid #127070;
-}
-
-#cont-auditorio .cont-poster-righta ul li span {
-    background: #94c8c9;
-    color: #ffffff;
-    padding: 4px 6px;
-    font-size: 14px;
-    font-weight: 500;
-    transition: .3s;
-}
-
-#cont-auditorio .cont-poster-righta ul li i {
-    background: #ffffff;
-    border-bottom: 3px solid #94c8c9;
-    position: absolute;
-    bottom: -2px;
-    padding-left: 10px;
-    font-size: 10px;
-    color: #127070;
-    transition: .3s;
-    width: 57%;
-    text-align: right;
-} */
 
 #cont-auditorio .cont-events-items {
     background: rgb(255, 255, 255) url(../media/bg-espacio-audi.png);
@@ -182,9 +147,11 @@ body {
     left: 379px;
     text-align: center;
 }
-#cont-auditorio .cont-events-items.active{
+
+#cont-auditorio .cont-events-items.active {
     background: #ffffff;
 }
+
 #cont-auditorio .cont-events-items p.aviso {
     color: #009ada;
     font-weight: 600;
@@ -209,7 +176,8 @@ body {
 #cont-auditorio .cont-events-items .header-events img {
     width: 160px;
 }
-#cont-auditorio .cont-events-items .header-events img.bloque{
+
+#cont-auditorio .cont-events-items .header-events img.bloque {
     width: 194px;
 }
 
@@ -235,9 +203,11 @@ body {
     margin-top: 15px;
     transition: .5s;
 }
-#cont-botones-inf .btn-bloque.hide{
+
+#cont-botones-inf .btn-bloque.hide {
     display: none;
 }
+
 .cont-events-items .cont-btns .btn-bloque:hover {
     background: #c4c4c4;
 }
@@ -257,16 +227,17 @@ body {
 #cont-auditorio .cont-events-items #item-eventd.active,
 #cont-auditorio .cont-events-items #item-evente.active,
 #cont-auditorio .cont-events-items #item-eventf.active,
-#cont-botones-inf.active
-{
-display: block;
+#cont-botones-inf.active {
+    display: block;
 }
-#cont-botones-inf{
+
+#cont-botones-inf {
     position: relative;
     bottom: -14px;
     display: none;
 }
-#cont-botones-inf .btn-bloque{
+
+#cont-botones-inf .btn-bloque {
     font-size: 13px;
     padding: 5px 20px;
     border-radius: 61px 0px;
@@ -277,12 +248,15 @@ display: block;
     margin-top: 15px;
     transition: .5s;
 }
-#cont-botones-inf .btn-bloque.prof{
+
+#cont-botones-inf .btn-bloque.prof {
     border-left: 16px solid #a1bc31;
 }
-#cont-botones-inf .btn-bloque:hover{
+
+#cont-botones-inf .btn-bloque:hover {
     border-left: 16px solid #da9500;
 }
+
 #cont-auditorio .cont-events-items .item-events h2 {
     position: relative;
     margin-top: 10px;
@@ -316,11 +290,13 @@ display: block;
     text-align: center;
     margin-bottom: 0;
 }
-.table{
+
+.table {
     margin-top: 20px;
     margin-bottom: 0px !important;
     text-align: left;
 }
+
 #cont-auditorio .cont-events-items .item-events table tr td img {
     width: 45px;
 }
@@ -380,14 +356,16 @@ display: block;
 }
 
 #cont-auditorio .cont-events-items .item-events table tr td.text {
-    
+
     transition: .4s;
     width: 89%;
 }
-#cont-auditorio .cont-events-items .item-events table tr:nth-child(odd) td.text{
+
+#cont-auditorio .cont-events-items .item-events table tr:nth-child(odd) td.text {
     background: #cceffa;
 }
-#cont-auditorio .cont-events-items .item-events table tr:nth-child(even) td.text{
+
+#cont-auditorio .cont-events-items .item-events table tr:nth-child(even) td.text {
     background: #e9f8fc;
 }
 
@@ -493,7 +471,7 @@ display: block;
 
 .cont-comercial-items a:nth-child(2) {
     background: transparent;
-    
+
     width: 85%;
     display: inline-block;
     position: absolute;
@@ -508,7 +486,7 @@ display: block;
 
 .cont-comercial-items a:nth-child(3) {
     background: transparent;
-    
+
     width: 85%;
     display: inline-block;
     position: absolute;
@@ -523,7 +501,7 @@ display: block;
 
 .cont-comercial-items a:nth-child(4) {
     background: transparent;
-    
+
     width: 85%;
     display: inline-block;
     position: absolute;
@@ -538,7 +516,7 @@ display: block;
 
 .cont-comercial-items a:nth-child(5) {
     background: transparent;
-    
+
     width: 85%;
     display: inline-block;
     position: absolute;
@@ -550,6 +528,7 @@ display: block;
     color: #666666;
     padding-top: 20px;
 }
+
 /* 
 .cont-comercial-items a:nth-child(6) {
     background: transparent;
@@ -927,4 +906,255 @@ display: block;
     transform: translateY(-100%);
     -webkit-transition: all 0.3s 1s ease-out;
     transition: all 0.3s 1s ease-out;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 900px) {
+    .cont-video {
+        width: 96%;
+        height: 100vh;
+    }
+
+    #cont-comercial,
+    #cont-lobby,
+    #cont-auditorio {
+        width: 96%;
+        height: 98vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    #cont-auditorio .cont-poster-lefta {
+        width: 18%;
+        height: 43%;
+        background: transparent;
+        position: absolute;
+        left: 3%;
+        top: 22%;
+    }
+
+    #cont-auditorio .cont-events-items {
+        background: rgb(255, 255, 255) url(../media/bg-espacio-audi.png)no-repeat;
+        background-size: 100%;
+        position: absolute;
+        width: 46%;
+        top: 24%;
+        left: 27%;
+        text-align: center;
+        z-index: 999;
+    }
+
+    .cont-comercial-items {
+        width: 25%;
+        background: transparent;
+        height: auto;
+        position: absolute;
+        top: 31%;
+        left: 4%;
+        transform: skew(0deg, 3deg);
+    }
+
+
+    .cont-comercial-items a:nth-child(1) {
+        background: transparent;
+        color: #666666;
+        width: 85%;
+        display: inline-block;
+        position: absolute;
+        top: 7px;
+        left: 19px;
+        height: 40px;
+        transform: skew(0deg, -2deg);
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .cont-comercial-items a:nth-child(2) {
+        background: transparent;
+        width: 85%;
+        display: inline-block;
+        position: absolute;
+        top: 49px;
+        left: 19px;
+        height: 40px;
+        transform: skew(-0deg, -5deg);
+        text-align: center;
+        color: #666666;
+        padding-top: 10px;
+    }
+
+    .cont-comercial-items a:nth-child(3) {
+        background: transparent;
+        width: 85%;
+        display: inline-block;
+        position: absolute;
+        top: 92px;
+        left: 19px;
+        height: 40px;
+        transform: skew(0deg, -6deg);
+        text-align: center;
+        color: #666666;
+        padding-top: 10px;
+    }
+
+    .cont-comercial-items a:nth-child(4) {
+        background: transparent;
+        width: 85%;
+        display: inline-block;
+        position: absolute;
+        top: 136px;
+        left: 19px;
+        height: 40px;
+        transform: skew(0deg, -6deg);
+        text-align: center;
+        color: #666666;
+        padding-top: 10px;
+    }
+
+    .cont-comercial-items a:nth-child(5) {
+        background: transparent;
+        width: 85%;
+        display: inline-block;
+        position: absolute;
+        top: 175px;
+        left: 19px;
+        height: 40px;
+        transform: skew(0deg, -6deg);
+        text-align: center;
+        color: #666666;
+        padding-top: 10px;
+    }
+
+    .cont-menu-bottom {
+        position: absolute;
+        bottom: 0;
+        text-align: right;
+        left: 0;
+        right: 0;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        z-index: 9;
+    }
+
+    .cont-menu-bottom .menu-item img {
+        width: 100%;
+        transition: .5s;
+        position: relative;
+    }
+
+    .cont-menu-bottom .menu-item {
+        width: 60px;
+    }
+
+    #cont-lobby .muestra-comercial {
+        position: absolute;
+        left: 2%;
+        top: 2%;
+        height: 50%;
+        width: 28%;
+        background: transparent;
+        text-align: center;
+        color: transparent;
+    }
+
+    #cont-lobby .auditorio {
+        position: absolute;
+        right: 2%;
+        top: 2%;
+        height: 50%;
+        width: 28%;
+        background: transparent;
+        text-align: center;
+        color: transparent;
+        padding-top: 14px;
+    }
+
+    #cont-auditorio .cont-events-items .header-events {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 20px 0 0;
+    }
+
+    #cont-auditorio .cont-events-items .header-events h2 {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    #cont-auditorio .cont-events-items .header-events img {
+        width: 80px;
+    }
+
+    .cont-events-items .cont-btns .btn-bloque {
+        font-size: 12px;
+        padding: 7px 35px;
+    }
+
+    #cont-auditorio .cont-events-items p.aviso {
+        font-size: 10px;
+    }
+
+    #cont-auditorio .cont-poster-righta {
+        width: 19%;
+        height: 49%;
+        background: #ffffff;
+        position: absolute;
+        right: 4%;
+        top: 23%;
+    }
+
+    #cont-botones-inf .btn-bloque {
+        font-size: 10px;
+        font-weight: 400;
+        padding: 5px;
+        margin-top: 0;
+    }
+    #cont-botones-inf{
+        bottom: -11px;
+    }
+    #cont-auditorio .cont-events-items .header-events img.bloque{
+        width: 150px;
+    }
+
+    #cont-auditorio .cont-events-items .item-events table tr td h4{
+        font-size: 8px;
+    }
+
+    #cont-auditorio .cont-events-items .item-events table tr td img{
+        width: 35px;
+    }
+    #cont-auditorio .cont-events-items .item-events table tr td{
+        padding: 2px;
+    }
+
+    #cont-auditorio .cont-poster-righta h4 {
+        font-size: 12px;
+        padding: 8px 6px;
+        font-weight: 400;
+    }
+
+    #cont-auditorio .cont-poster-righta ul li a img {
+        width: 40px;
+        position: relative;
+        z-index: 2;
+        background: #57167d;
+        border-radius: 50%;
+        padding: 3px;
+        transition: .5s;
+        border: 3px solid #e7efff;
+    }
+
+    #cont-auditorio .cont-poster-righta ul li a span {
+        background: linear-gradient(#df94ff, #6e3a91);
+        padding: 10px 12px 10px 22px;
+        color: #ffffff;
+        width: auto;
+        border-radius: 0px 24px 24px 0;
+        position: relative;
+        left: -20px;
+        z-index: 0;
+        font-weight: 400;
+        transition: .5s;
+        font-size: 12px;
+    }
+
 }
