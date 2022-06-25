@@ -916,11 +916,57 @@ body {
 
     #cont-comercial,
     #cont-lobby,
-    #cont-auditorio {
+    #cont-auditorio,
+    #cont-comercialA {
         width: 96%;
         height: 98vh;
         background-size: 100%;
         background-repeat: no-repeat;
+    }
+
+    #cont-comercialA .logoa {
+        width: 15%;
+        height: auto;
+        background-size: cover;
+        position: absolute;
+        top: 32.2%;
+        left: 16.7%;
+        transition: .4s;
+    }
+
+    #cont-comercialA .cont-videoC {
+        width: 16%;
+        position: absolute;
+        top: 55%;
+        left: 16%;
+    }
+
+    #cont-comercialA .postera {
+        position: absolute;
+        width: 9%;
+        height: 33%;
+        left: 47.7%;
+        top: 56%;
+        text-align: center;
+        background: #ffffff;
+        transition: .4s;
+    }
+
+    #cont-comercialA .cont-menu-bottom {
+        padding-right: 100px;
+    }
+
+    #cont-comercialA .cont-logo-corp {
+        position: absolute;
+        bottom: 0;
+        width: 8%;
+        right: 44%;
+        bottom: 0%;
+    }
+
+
+    #cont-comercialA .postera img {
+        width: 100%;
     }
 
     #cont-auditorio .cont-poster-lefta {
@@ -1108,21 +1154,323 @@ body {
         padding: 5px;
         margin-top: 0;
     }
-    #cont-botones-inf{
+
+    #cont-botones-inf {
         bottom: -11px;
     }
-    #cont-auditorio .cont-events-items .header-events img.bloque{
+
+    #cont-auditorio .cont-events-items .header-events img.bloque {
         width: 150px;
     }
 
-    #cont-auditorio .cont-events-items .item-events table tr td h4{
+    #cont-auditorio .cont-events-items .item-events table tr td h4 {
         font-size: 8px;
     }
 
-    #cont-auditorio .cont-events-items .item-events table tr td img{
+    #cont-auditorio .cont-events-items .item-events table tr td img {
         width: 35px;
     }
-    #cont-auditorio .cont-events-items .item-events table tr td{
+
+    #cont-auditorio .cont-events-items .item-events table tr td {
+        padding: 2px;
+    }
+
+    #cont-auditorio .cont-poster-righta h4 {
+        font-size: 12px;
+        padding: 8px 6px;
+        font-weight: 400;
+    }
+
+    #cont-auditorio .cont-poster-righta ul li a img {
+        width: 40px;
+        position: relative;
+        z-index: 2;
+        background: #57167d;
+        border-radius: 50%;
+        padding: 3px;
+        transition: .5s;
+        border: 3px solid #e7efff;
+    }
+
+    #cont-auditorio .cont-poster-righta ul li a span {
+        background: linear-gradient(#df94ff, #6e3a91);
+        padding: 10px 12px 10px 22px;
+        color: #ffffff;
+        width: auto;
+        border-radius: 0px 24px 24px 0;
+        position: relative;
+        left: -20px;
+        z-index: 0;
+        font-weight: 400;
+        transition: .5s;
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1180px) {
+    .cont-video {
+        width: 96%;
+        height: 78vh;
+    }
+
+    #cont-comercial,
+    #cont-lobby,
+    #cont-auditorio,
+    #cont-comercialA {
+        width: 96%;
+        height: 78vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    #cont-comercialA .logoa {
+        width: 15%;
+        height: auto;
+        background-size: cover;
+        position: absolute;
+        top: 27.2%;
+        left: 16.7%;
+        transition: .4s;
+    }
+
+    #cont-comercialA .cont-videoC {
+        width: 16%;
+        position: absolute;
+        top: 44%;
+        left: 16%;
+    }
+
+    #cont-comercialA .postera {
+        position: absolute;
+        width: 9%;
+        height: 27%;
+        left: 47.7%;
+        top: 46%;
+        text-align: center;
+        background: #ffffff;
+        transition: .4s;
+    }
+
+    #cont-comercialA .cont-menu-bottom {
+        padding-right: 100px;
+    }
+
+    #cont-comercialA .cont-logo-corp {
+        position: absolute;
+        width: 8%;
+        right: 44.5%;
+        bottom: 14%;
+    }
+
+
+    #cont-comercialA .postera img {
+        width: 100%;
+    }
+
+    #cont-auditorio .cont-poster-lefta {
+        width: 18%;
+        height: 43%;
+        background: transparent;
+        position: absolute;
+        left: 3%;
+        top: 19%;
+    }
+
+    #cont-auditorio .cont-events-items {
+        background: rgb(255, 255, 255) url(../media/bg-espacio-audi.png)no-repeat;
+        background-size: 100%;
+        position: absolute;
+        width: 46%;
+        top: 20%;
+        left: 27%;
+        text-align: center;
+        z-index: 999;
+    }
+
+    .cont-comercial-items {
+        width: 25%;
+        background: transparent;
+        height: auto;
+        position: absolute;
+        top: 25%;
+        left: 4%;
+        transform: skew(0deg, 3deg);
+    }
+
+
+    .cont-comercial-items a:nth-child(1) {
+        background: transparent;
+        color: #666666;
+        width: 85%;
+        display: inline-block;
+        position: absolute;
+        top: 7px;
+        left: 19px;
+        height: 50px;
+        transform: skew(0deg, -2deg);
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .cont-comercial-items a:nth-child(2) {
+        background: transparent;
+        width: 85%;
+        display: inline-block;
+        position: absolute;
+        top: 69px;
+        left: 19px;
+        height: 50px;
+        transform: skew(-0deg, -5deg);
+        text-align: center;
+        color: #666666;
+        padding-top: 10px;
+    }
+
+    .cont-comercial-items a:nth-child(3) {
+        background: transparent;
+        width: 85%;
+        display: inline-block;
+        position: absolute;
+        top: 130px;
+        left: 19px;
+        height: 50px;
+        transform: skew(0deg, -6deg);
+        text-align: center;
+        color: #666666;
+        padding-top: 10px;
+    }
+
+    .cont-comercial-items a:nth-child(4) {
+        background: transparent;
+        width: 85%;
+        display: inline-block;
+        position: absolute;
+        top: 191px;
+        left: 19px;
+        height: 50px;
+        transform: skew(0deg, -6deg);
+        text-align: center;
+        color: #666666;
+        padding-top: 10px;
+    }
+
+    .cont-comercial-items a:nth-child(5) {
+        background: transparent;
+        width: 85%;
+        display: inline-block;
+        position: absolute;
+        top: 253px;
+        left: 19px;
+        height: 50px;
+        transform: skew(0deg, -6deg);
+        text-align: center;
+        color: #666666;
+        padding-top: 10px;
+    }
+
+    .cont-menu-bottom {
+        position: absolute;
+        bottom: 60px;
+        text-align: right;
+        left: 0;
+        right: 0;
+        padding-bottom: 15px;
+        padding-right: 80px;
+        z-index: 9;
+    }
+
+    .cont-menu-bottom .menu-item img {
+        width: 100%;
+        transition: .5s;
+        position: relative;
+    }
+
+    .cont-menu-bottom .menu-item {
+        width: 60px;
+    }
+
+    #cont-lobby .muestra-comercial {
+        position: absolute;
+        left: 2%;
+        top: 2%;
+        height: 40%;
+        width: 28%;
+        background: transparent;
+        text-align: center;
+        color: transparent;
+    }
+
+    #cont-lobby .auditorio {
+        position: absolute;
+        right: 2%;
+        top: 2%;
+        height: 40%;
+        width: 28%;
+        background: transparent;
+        text-align: center;
+        color: transparent;
+        padding-top: 14px;
+    }
+
+    #cont-auditorio .cont-events-items .header-events {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 20px 0 0;
+    }
+
+    #cont-auditorio .cont-events-items .header-events h2 {
+        font-size: 15px;
+        padding: 10px 14px;
+    }
+
+    #cont-auditorio .cont-events-items .header-events img {
+        width: 110px;
+    }
+
+    .cont-events-items .cont-btns .btn-bloque {
+        font-size: 13px;
+        padding: 10px 35px;
+    }
+
+    #cont-auditorio .cont-events-items p.aviso {
+        font-size: 10px;
+    }
+
+    #cont-auditorio .cont-poster-righta {
+        width: 18.5%;
+        height: 39%;
+        background: #ffffff;
+        position: absolute;
+        right: 4.5%;
+        top: 19%;
+    }
+
+    #cont-botones-inf .btn-bloque {
+        font-size: 11px;
+        font-weight: 400;
+        padding: 5px 8px;
+        margin-top: 0;
+    }
+
+    #cont-botones-inf {
+        bottom: -11px;
+    }
+
+    #cont-auditorio .cont-events-items .header-events img.bloque {
+        width: 150px;
+    }
+
+    #cont-auditorio .cont-events-items .item-events table tr td h4 {
+        font-size: 10px;
+    }
+
+    #cont-auditorio .cont-events-items .item-events table tr td img {
+        width: 35px;
+    }
+
+    #cont-auditorio .cont-events-items .item-events table tr td {
         padding: 2px;
     }
 
